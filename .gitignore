@@ -1,0 +1,83 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Backup files
+*.bak
+*.backup
+*~
+*.swp
+.mac-deployer/backups/
+
+# Logs
+*.log
+deploy.log
+installed-apps.txt
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Temporary files
+*.tmp
+tmp/
+temp/
+.tmp*
+
+# Node modules (if using any Node.js tools)
+node_modules/
+
+# Python virtual environments (if using any Python tools)
+venv/
+.venv/
+.python-version
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Package files
+*.dmg
+*.iso
+*.tar
+*.zip
+*.gz
+*.tgz
+
+# Local test files
+test/local/
+test/temp/
+*_test.sh
+!test/test-preferences.sh
+
+# Personal configuration backups
+config/local/
+config/backup/
+config/custom/
+
+# Generated files
+.generated/
+dist/
+build/
+
+# Credentials and secrets
+*.pem
+*.key
+*.cert
+.secrets 
